@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            color: white;
+            font: Helvetica;
+            size: 14px;}
+        .recipes{
+            color: white;
+            font: Helvetica;
+            size: 14px;}
+        .chefs{
+            color: white;
+            font: Helvetica;
+            size: 14px;}
+        .contacts{
+            color: white;
+            font: Helvetica;
+            size: 14px;}
+        
+            .flexcontainer {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+        }
+    
+        .background {
+        min-height: 100%;
+        min-width: 640px;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        @media screen and (max-width: 640px){
+        img.bg {
+        left: 50%;
+        margin-left: -320px;
+        }
+        }
+        }
+        
+    </style>
+</head>
+<body background="/images/background.png">
+      
+  <header class="header">
+    <div class="flexcontainer">
+    <p><img id="logo" src="images\Logo.png"></p>
+    <p><img id="brandname" src="images\brandname.png"></p>
+    <p> <span class="menu">Menu</span></p> 
+    <p> <span class="recipes">Recipes</span></p> 
+    <p> <span class="chefs">Chefs</span></p> 
+    <p> <span class="contacts">Contacts</span></p> 
+</div>
+  </header> 
+  <main>
+    <div class="flexcontainer">
+<p>Your <b>Favourite Food</b>
+</p>
+<p>Delivered <b>Hot & Fresh</b></div>
+</p>
+    <div>
+    more 2
+</div>
+<div>
+    more 3
+</div>
+  </main>
+  <footer>
+    <div>
+        section 1
+    </div>
+    <div>
+        section 2
+    </div>    
+    <div>
+        section 3
+    </div>
+    <div>
+        section 4
+    </div>
+  </footer>
+</body>
+</html>
